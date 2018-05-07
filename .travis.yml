@@ -28,3 +28,4 @@ script: bundle exec ruby -I test test/acceptance_test.rb -n '/basic/'
 after_script:
   - bundle env
   - ls -la test/apps
+  - cat test/apps/rails-5-1-spring-2.0.2/Gemfile
