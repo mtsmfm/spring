@@ -27,3 +27,4 @@ before_script:
 script: bundle exec ruby -I test test/acceptance_test.rb -n '/basic/'
 after_script:
   - bundle env
+  - ls -la test/apps
