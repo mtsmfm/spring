@@ -29,5 +29,6 @@ after_script:
   - bundle env
   - ls -la test/apps
   - cat test/apps/rails-5-1-spring-2.0.2/Gemfile
+  - cat test/apps/rails-5-1-spring-2.0.2/Gemfile.lock
   - gem list
   - bundle exec gem list
